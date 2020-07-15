@@ -6,7 +6,7 @@ def parity(word):
         word >>= 1
     return num % 2 != 0
 
-# tests
+# tests 
 import unittest
 
 class SimpleTest(unittest.TestCase):
